@@ -1,0 +1,181 @@
+/*  Signup, Login and Forget_password Page start   */
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: #fdf0f5;
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Change from height to min-height */
+    padding: 20px; /* Add some padding for smaller screens */
+}
+
+/* Form Container Styling */
+.form-container {
+    width: 100%;
+    max-width: 400px; /* Increased max-width for better user experience */
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 2.5em;
+    color: #f25287;
+    margin-bottom: 20px;
+}
+
+h2 i {
+    color: #f89ac7;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+.btn {
+    background-color: #f25287;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #f89ac7;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+p a {
+    color: #f25287;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/*  Signup, Login and Forget_password Page end   */
+
+
+/*  Profile Page Start   */
+ 
+
+.profile-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-title {
+    font-family: cursive;
+    font-size: 2.5em;
+    color: #f25287;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    margin-bottom: 20px;
+}
+
+.profile-detail {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.profile-detail label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.profile-detail span {
+    display: block;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Button Styling */
+.profile-btn {
+    background-color: #f25287;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none; /* No underline for links */
+}
+
+.profile-btn:hover {
+    background-color: #f89ac7;
+}
+
+.profile_error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+/*  Profile Page End   */
+
+
+
+
+/*  about Page start   */
+
+
+
+/*  about Page End   */
+/* Styles for the message container */
+

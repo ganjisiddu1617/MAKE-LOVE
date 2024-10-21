@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Make Love Now</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> <!-- CSS -->
+    <style>
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <h2 class="profile-title"><i class="fas fa-user"></i> Your Profile</h2>
+        <img src="data:image/png;base64,{{ image_base64 }}" alt="Profile Image" style="width: 200px; height: 250px;">
+        <div class="profile-detail">
+            <label for="name">Name:</label>
+            <span id="name">{{ account.name }}</span>
+        </div>
+        <div class="profile-detail">
+            <label for="email">Email:</label>
+            <span id="email">{{ account.email }}</span>
+        </div>
+        <div class="profile-detail">
+            <label for="age">Age:</label>
+            <span id="age">{{ account.age }}</span>
+        </div>
+        <div class="profile-detail">
+            <label for="contact">Phone Number:</label>
+            <span id="contact">{{ account.contact }}</span>
+        </div>
+            <!-- Logout Button (outside profile container) -->
+    <div class="logout-container">
+        <a href="{{ url_for('logout') }}" class="profile-btn logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
